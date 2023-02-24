@@ -1,11 +1,9 @@
-string = input()
-n = int(input())
-end_result = ""
+text = input()
+counter = int(input())
 
 
-def result(first_string, counter):
-    end_result = string * n
-    return end_result
+def string_multiply():
+    return text * counter
 
 
-print(result(string, n))
+print(string_multiply())

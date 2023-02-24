@@ -1,7 +1,7 @@
 grade = float(input())
 
 
-def school_grade():
+def grade_in_words():
     if 2.00 <= grade <= 2.99:
         return "Fail"
     elif 3.00 <= grade <= 3.49:
@@ -14,5 +14,5 @@ def school_grade():
         return "Excellent"
 
 
-school_grade()
-print(school_grade())
+grade_in_words()
+print(grade_in_words())
