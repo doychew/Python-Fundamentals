@@ -1,6 +1,8 @@
-banned_words = input(", ")
+banned_words = input().split(", ")
 text = input()
+length = ""
 for word in banned_words:
     while word in text:
-        text = text.replace(word, "*" * len(word))
+        length = len(word)
+        text = text.replace(word, "*" * length)
 print(text)

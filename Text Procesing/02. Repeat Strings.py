@@ -1,6 +1,8 @@
 sequence = input().split()
 result = ""
 for word in sequence:
-    lenght = len(word)
-    result += word * lenght
+    length = len(word)
+    result += word * length
 print(result)
+
+    
