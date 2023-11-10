@@ -1,14 +1,14 @@
+def calculation():
+    if command == "subtract":
+        result = first_num - second_num
+    elif command == "divide":
+        result = first_num // second_num
+    elif command == "add":
+        result = first_num + second_num
+    elif command == "multiply":
+        result = first_num * second_num
+    return result
 command = input()
 first_num = int(input())
 second_num = int(input())
-def calculate():
-    if command == "multiply":
-        return first_num * second_num
-    elif command == "divide":
-        return first_num // second_num
-    elif command == "add":
-        return first_num + second_num
-    elif command == "subtract":
-        return first_num - second_num
-calculate()
-print(calculate())
+print(calculation())

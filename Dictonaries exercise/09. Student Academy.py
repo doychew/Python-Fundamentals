@@ -1,17 +1,19 @@
-n = int(input())
-grades_by_student = {}
-for _ in range(n):
-    student_name = input()
-    student_grade = float(input())
+student_grades = {}
 
-    if student_name not in grades_by_student:
-        grades_by_student[student_name] = []
+counter = 0
+rows = int(input())
+for i in range(0, rows):
+    name = input()
+    grade = float(input())
+    if name not in student_grades:
+        student_grades[name] = []
+    student_grades[name].append(grade)
 
-    grades_by_student[student_name].append(student_grade)
-
-for student, grades in grades_by_student.items():
-    average_grade = sum(grades) / len(grades)
-    if average_grade < 4.50:
+for student, grade in student_grades.items():
+    avg_grade = sum(grade) / len(grade)
+    if avg_grade < 4.50:
         continue
     else:
-        print(f"{student} -> {average_grade:.2f}")
+        print(f"{student} -> {avg_grade:.2f}")
+
+

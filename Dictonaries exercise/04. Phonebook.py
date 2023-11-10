@@ -4,7 +4,10 @@ while True:
     if "-" not in entry:
         break
     name, phone = entry.split("-")
-    phonebook[name] = phone
+    if name not in phonebook:
+        phonebook[name] = phone
+    else:
+        phonebook[name] = phone
 for check in range(int(entry)):
     searched_name = input()
     if searched_name in phonebook:

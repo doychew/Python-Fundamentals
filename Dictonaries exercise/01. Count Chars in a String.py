@@ -1,10 +1,10 @@
-text = input().split()
-dict = {}
-for word in text:
+symbols = input().split()
+letters = {}
+for word in symbols:
     for letter in word:
-        if letter not in dict:
-            dict[letter] = 1
+        if letter in letters:
+            letters[letter] += 1
         else:
-            dict[letter] += 1
-for char, counter in dict.items():
-    print(f"{char} -> {counter}")
+            letters[letter] = 1
+for letter, count in letters.items():
+    print(f"{letter} -> {count}")

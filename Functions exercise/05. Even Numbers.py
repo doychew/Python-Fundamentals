@@ -1,9 +1,6 @@
-numbers = input().split()
-integer_list = []
-for element in numbers:
+sequence_numbers = input().split()
+int_numbers = []
+for element in sequence_numbers:
     if int(element) % 2 == 0:
-        integer_list.append(int(element))
-
-
-
-print(integer_list)
+        int_numbers.append(int(element))
+print(int_numbers)

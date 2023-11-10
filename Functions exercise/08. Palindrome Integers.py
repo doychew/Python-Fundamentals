@@ -1,8 +1,6 @@
-def palindrome_checker(list):
-    for num in list:
-        is_palindrome = num[0] == num[-1]
+def palindrome(positive_ints):
+    for character in positive_ints:
+        is_palindrome = character[0] == character[-1]
         print(is_palindrome)
-
-
-positive_ints = input().split(", ")
-palindrome_checker(positive_ints)
+numbers = input().split(", ")
+palindrome(numbers)

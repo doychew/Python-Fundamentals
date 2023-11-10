@@ -9,4 +9,3 @@ for i in range(n):
         searched_word_list.append(word)
 print(all_words_list)
 print(searched_word_list)
-

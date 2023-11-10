@@ -1,25 +1,24 @@
-price_by_product = {}
-quantity_by_product = {}
-
+product_dict = {}
+quantity_dict = {}
 while True:
-    line = input()
-    if line == "buy":
+    command = input()
+    if command == "buy":
         break
+    command_split = command.split()
+    name = command_split[0]
+    price = float(command_split[1])
+    quantity = int(command_split[2])
+    if name not in product_dict:
+        product_dict[name] = price
+        quantity_dict[name] = quantity
 
-    args = line.split()
-    product = args[0]
-    price = float(args[1])
-    quantity = int(args[2])
-
-    if product in price_by_product:
-        price_by_product[product] = price
-        quantity_by_product[product] += quantity
     else:
-        price_by_product[product] = price
-        quantity_by_product[product] = quantity
-for product in price_by_product:
-    price = price_by_product[product]
-    quantity = quantity_by_product[product]
+        product_dict[name] = price
+        quantity_dict[name] += quantity
 
+
+for name in product_dict:
+    price = product_dict[name]
+    quantity = quantity_dict[name]
     total_price = price * quantity
-    print(f"{product} -> {total_price:.2f}")
+    print(f"{name} -> {total_price:.2f}")

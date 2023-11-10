@@ -1,12 +1,11 @@
+numbers = input().split(", ")
 positive = []
 negative = []
-odd = []
 even = []
-
-numbers_list = []
-numbers = input().split(", ")
+odd = []
+number_list = []
 for element in numbers:
-    numbers_list.append(int(element))
+    number_list.append(int(element))
     if int(element) >= 0:
         positive.append(element)
     else:

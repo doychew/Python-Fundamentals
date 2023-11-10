@@ -1,1 +1,3 @@
-text = [print(number) for number in input().split() if len(number) % 2 ==0]
+text = input().split()
+even_words = [word for word in text if len(word) % 2 == 0]
+print("\n".join(even_words))

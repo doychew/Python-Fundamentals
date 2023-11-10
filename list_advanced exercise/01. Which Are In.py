@@ -1,10 +1,9 @@
-first_input = input().split(", ")
-second_input = input().split(", ")
-sequences = []
-for first_word in first_input:
-    for second_word in second_input:
+first_line = input().split(", ")
+second_line = input().split(", ")
+searched_words = []
+for first_word in first_line:
+    for second_word in second_line:
         if first_word in second_word:
-            sequences.append(first_word)
+            searched_words.append(first_word)
             break
-print(sequences)
-
+print(searched_words)

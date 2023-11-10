@@ -1,20 +1,20 @@
 n_wagons = int(input())
 train = [0] * n_wagons
-commands = input()
 
-while commands != "End":
-    action = commands.split()[0]
+command = input()
+
+while command != "End":
+    action = command.split()[0]
     if action == "add":
-        n_people = int(commands.split()[1])
-        train[-1] += n_people
+        people = int(command.split()[1])
+        train[-1] += people
     elif action == "insert":
-        index = int(commands.split()[1])
-        n_people = int(commands.split()[2])
-        train[index] += n_people
+        index = int(command.split()[1])
+        people = int(command.split()[2])
+        train[index] += people
     elif action == "leave":
-        index = int(commands.split()[1])
-        n_people = int(commands.split()[2])
-        train[index] -= n_people
-
-    commands = input()
+        index = int(command.split()[1])
+        people = int(command.split()[2])
+        train[index] -= people
+    command = input()
 print(train)

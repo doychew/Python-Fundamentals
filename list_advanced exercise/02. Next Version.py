@@ -1,8 +1,15 @@
-version = [int (number) for number in input().split(".")]
-version[-1] += 1
-for index in range(len(version) -1, -1, -1):
-    if version[index] > 9:
-        version[index] = 0
-        if index - 1 >= 0:
-            version[index - 1] += 1
-print(".".join(str(number) for number in version))
+current_version = input().split(".")
+next_version = []
+version_as_string = []
+for number in current_version:
+    next_version.append(int(number))
+next_version[2] += 1
+if next_version[2] > 9:
+    next_version[2] = 0
+    next_version[1] += 1
+if next_version[1] > 9:
+    next_version[1] = 0
+    next_version[0] += 1
+for num in next_version:
+    version_as_string.append(str(num))
+print(".".join(version_as_string))

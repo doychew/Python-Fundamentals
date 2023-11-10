@@ -1,0 +1,14 @@
+.py
+- - - 01_even_lines.py
+- - - 02_line_numbers.py
+- - - 03_file_manipulator.py
+- - - 04_directory_traversal.py
+- - - directory_traversal.py
+.txt
+- - - output.txt
+- - - report.txt
+- - - test.txt
+- - - test_file.txt
+- - - test_file.txt
+- - - tets_file.txt
+- - - text.txt

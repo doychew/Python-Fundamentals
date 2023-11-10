@@ -6,28 +6,26 @@ while not obtained:
         value = int(current_items[index])
         key = current_items[index + 1].lower()
         if key not in items:
-            items[key] = 0
-        items[key] += value
+            items[key] = value
+        else:
+            items[key] += value
         if items["shards"] >= 250:
-            print(f"Shadowmourne obtained!")
+            print("Shadowmourne obtained!")
             items["shards"] -= 250
             obtained = True
         elif items["fragments"] >= 250:
-            print(f"Valanyr obtained!")
+            print("Valanyr obtained!")
             items["fragments"] -= 250
             obtained = True
         elif items["motes"] >= 250:
-            print(f"Dragonwrath obtained!")
+            print("Dragonwrath obtained!")
             items["motes"] -= 250
             obtained = True
         if obtained:
             break
     if obtained:
         break
+
     current_items = input().split()
 for material, quantity in items.items():
     print(f"{material}: {quantity}")
-
-
-
-

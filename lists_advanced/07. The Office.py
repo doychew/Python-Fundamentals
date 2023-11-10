@@ -1,10 +1,21 @@
-employees_happines = input().split()
+employees_happiness = input().split()
 factor = int(input())
-multiply_happines = []
-for element in employees_happines:
-    multiply_happines.append(int(element))
-filtered = list(filter(lambda x: x >= (sum(multiply_happines) / len(multiply_happines)), multiply_happines))
-if len(filtered) >= len(multiply_happines) / 2:
-    print(f"Score: {len(filtered)}/{len(multiply_happines)}. Employees are happy!")
+avg_score = 0
+score = 0
+current_happiness = []
+counter = 0
+for employee in employees_happiness:
+    current_happiness.append(int(employee) * factor)
+    score += int(employee) * factor
+avg_score = score / len(employees_happiness)
+for every_employee in current_happiness:
+    if every_employee >= avg_score:
+        counter += 1
+if counter >= len(employees_happiness) / 2:
+    print(f"Score: {counter}/{len(employees_happiness)}. Employees are happy!")
 else:
-    print(f"Score: {len(filtered)}/{len(multiply_happines)}. Employees are not happy!")
+    print(f"Score: {counter}/{len(employees_happiness)}. Employees are not happy!")
+
+
+
+

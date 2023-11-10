@@ -1,0 +1,99 @@
+
+.py
+- - - 01. Reverse Strings.py
+- - - 01_even_lines.py
+- - - 01_file_opener.py
+- - - 01_monster_extermination.py
+- - - 01_multiplication_function.py
+- - - 01_negative_vs_positive.py
+- - - 01_numbers_dictionary.py
+- - - 02. Matching Parentheses.py
+- - - 02_email_validator.py
+- - - 02_file_reader.py
+- - - 02_keyword_arguments_length.py
+- - - 02_line_numbers.py
+- - - 02_person_info.py
+- - - 02_repeat_text.py
+- - - 03. Supermarket.py
+- - - 03_cheese_showcase.py
+- - - 03_eeven_or_odd.py
+- - - 03_file_manipulator.py
+- - - 03_file_writer.py
+- - - 03_value_cannot_be_negative.py
+- - - 04_directory_traversal.py
+- - - 04_file_delete.py
+- - - 04_numbers_filter.py
+- - - 04_rectangle.py
+- - - 05_concatenate.py
+- - - 05_operate.py
+- - - 05_word_count.py
+- - - 06_function_executor.py
+- - - 06_range_day.py
+- - - 06_recursive_power.py
+- - - 07. Square with Maximum Sum.py
+- - - 07_grocery.py
+- - - 07_present_delivery.py
+- - - 08_age_assignment.py
+- - - 09_recursion_palindrome.py
+- - - 1.Numbers.py
+- - - 1_count_same_values.py
+- - - 1_diagonals.py
+- - - 1_flatten_lists.py
+- - - 1_reverse_numbers.py
+- - - 1_sum_matrix_elements.py
+- - - 1_unique_usernames.py
+- - - 2_diagonal_difference.py
+- - - 2_even_matrix.py
+- - - 2_expression_evaluator.py
+- - - 2_matrix_modification.py
+- - - 2_sets_of_elements.py
+- - - 2_stacked_queries.py
+- - - 2_students'_grades.py
+- - - 3_2x2_squares_in_matrix.py
+- - - 3_fast_food.py
+- - - 3_flattening_matrix.py
+- - - 3_knight_game.py
+- - - 3_milkshakes.py
+- - - 3_periodic_table.py
+- - - 3_record_unique_names.py
+- - - 4.Water Dispenser.py
+- - - 4._fashion _boutique.py
+- - - 4_count_symbols.py
+- - - 4_easter_bunny.py
+- - - 4_honey.py
+- - - 4_maximal_sum.py
+- - - 4_parking_lot.py
+- - - 4_sum_matrix_columns.py
+- - - 5.Hot Potato.py
+- - - 5_alice_in_wonderland.py
+- - - 5_longest_intersection.py
+- - - 5_matrix_of_palindromes.py
+- - - 5_primary_diagonal.py
+- - - 5_santa's_present_factory.py
+- - - 5_softuni_party.py
+- - - 5_truck_tour.py
+- - - 6_balanced_parentheses.py
+- - - 6_battle_of_names.py
+- - - 6_matrix_shuffling.py
+- - - 6_paint_colors.py
+- - - 6_symbol_in_matrix.py
+- - - 7_snake_moves.py
+- - - Console_Connect_Four.py
+- - - Tic-Tac-Toe.py
+- - - demo.py
+.rar
+- - - Error_Handling_exercise.rar
+.txt
+- - - input.txt
+- - - my_first_file.txt
+- - - numbers.txt
+- - - output.txt
+- - - output.txt
+- - - report.txt
+- - - report.txt
+- - - test.txt
+- - - test_file.txt
+- - - tets_file.txt
+- - - text.txt
+- - - text.txt
+- - - words.txt

@@ -1,7 +1,7 @@
-products = {}
-data = input().split()
-for index in range(0, len(data), 2):
-    key = data[index]
-    value = int(data[index + 1])
-    products[key] = value
-print(products)
+food = input().split()
+bakery = {}
+for i in range(0, len(food), 2):
+    key = food[i]
+    value = int(food[i + 1])
+    bakery[key] = value
+print(bakery)
